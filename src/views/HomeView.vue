@@ -1,8 +1,11 @@
 <script lang="ts">
-import Hello from '../components/testComponent.vue'
+import Hello from '../components/molecules/testComponent.vue'
+import Navbar from '../components/shared/navbar.vue'
+import caroussel from '../components/molecules/carousel.vue'
 import { defineComponent } from 'vue';
+
 export default defineComponent({
-  components:{Hello},
+  components:{Hello,Navbar,caroussel},
   methods:{
 
   }
@@ -12,5 +15,6 @@ export default defineComponent({
 <template>
   <main>
     <Hello />
+    <caroussel />
   </main>
 </template>

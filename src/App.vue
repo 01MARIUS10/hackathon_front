@@ -1,16 +1,25 @@
 <script lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import { defineComponent } from 'vue';
+import Navbar from './components/shared/navbar.vue'
+
+export default defineComponent({
+  components:{Navbar},
+
+})
 </script>
 
 <template>
   <header>
     <div class="">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-      </nav>
+      <Navbar />
     </div>
   </header>
 
   <RouterView />
 </template>
+
+<style scoped>
+
+</style>
 
