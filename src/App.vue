@@ -11,15 +11,19 @@ export default defineComponent({
 
 <template>
   <header>
-    <div class="">
       <Navbar />
-    </div>
   </header>
-
+<div class="view">
   <RouterView />
+</div>
 </template>
 
-<style scoped>
-
+<style >
+  header,#nav{
+    height: 60px;
+  }
+  view{
+    margin-top: 60px;
+  }
 </style>
 
