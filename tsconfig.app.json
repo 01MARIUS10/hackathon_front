@@ -7,7 +7,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "module":"ESNext",
+    "target":"ESNext",
+    "lib ":["esnext","dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution":"node",
+    "types":["@types/vue"]
   },
   "module":"esnext"
 }
