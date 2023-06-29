@@ -1,5 +1,7 @@
 <template>
-    <h1>caroussel test</h1>
+    <div id="caroussel">
+        <h1>caroussel test</h1>
+    </div>
 </template>
 
 <script lang="ts">

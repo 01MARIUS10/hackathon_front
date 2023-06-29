@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+    <nav id="nav" class="navbar custom-navbar navbar-expand-md navbar-light fixed-top " data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/imgs/logo.svg" alt="">

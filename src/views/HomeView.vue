@@ -13,7 +13,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <main>
+  <main id="home">
     <Hello />
     <caroussel />
   </main>
